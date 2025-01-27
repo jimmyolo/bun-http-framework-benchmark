@@ -17,20 +17,20 @@
   "dependencies": {
     "@bit-js/byte": "^2.0.0",
     "@elysiajs/fn": "^0.6.1",
-    "@elysiajs/node": "1.2.0-rc.0",
-    "@hapi/hapi": "^21.3.10",
+    "@elysiajs/node": "1.2.3",
+    "@hapi/hapi": "^21.3.12",
     "@jimmyolo/u-expresso": "^0.0.2",
     "@nbit/bun": "^0.13.4",
-    "@nestjs/common": "^11.1.0",
-    "@nestjs/core": "^11.1.0",
-    "@nestjs/platform-express": "^11.1.0",
+    "@nestjs/common": "^11.0.6",
+    "@nestjs/core": "^11.0.6",
+    "@nestjs/platform-express": "^11.0.6",
     "@oakserver/oak": "^14.1.0",
     "bunrest": "^1.3.8",
-    "elysia": "^1.3.0",
-    "express": "^5.1.0",
-    "fastify": "^5.3.2",
-    "h3": "^1.15.3",
-    "hono": "^4.7.8",
+    "elysia": "1.2.10",
+    "express": "^4.21.2",
+    "fastify": "^5.2.1",
+    "h3": "^1.14.0",
+    "hono": "^4.6.19",
     "hyper-express": "^6.17.3",
     "kill-port": "^2.0.1",
     "koa": "^3.0.0",
@@ -40,14 +40,14 @@
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.2",
     "ts-node": "^10.9.2",
-    "typescript": "^5.0.0",
-    "ultimate-express": "^1.2.5",
-    "uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.48.0",
-    "vixeny": "^0.1.47",
-    "wobe": "^1.1.7"
+    "typescript": "^5.7.3",
+    "ultimate-express": "^1.3.17",
+    "uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.51.0",
+    "vixeny": "^0.1.53",
+    "wobe": "^1.1.9"
   },
   "module": "index.ts",
   "peerDependencies": {
-    "typescript": "^5.0.0"
+    "typescript": "^5.7.3"
   }
 }
