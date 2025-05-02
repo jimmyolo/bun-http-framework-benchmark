@@ -1,9 +1,10 @@
 const express = require('express-4')
 require('express-async-error')
 
-express.set('etag', false)
+const app = express()
+app.set('etag', false)
 
-express()
+app
   .get('/', (req, res) => {
     res.setHeader('content-type', 'text/plain').send('Hi')
   })
