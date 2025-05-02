@@ -1,4 +1,7 @@
 const express = require('express-4')
+require('express-async-error')
+
+express.set('etag', false)
 
 express()
   .get('/', (req, res) => {

@@ -1,4 +1,5 @@
 const express = require('express')
+express.set('etag', false)
 
 express()
 	.get('/', (req, res) => {

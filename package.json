@@ -12,14 +12,15 @@
     "@types/kill-port": "^2.0.3",
     "@types/koa": "^2.15.0",
     "@types/koa-bodyparser": "^4.3.12",
-    "@types/koa-router": "^7.4.8"
+    "@types/koa-router": "^7.4.8",
+    "express-async-error": "^0.0.2"
   },
   "dependencies": {
     "@bit-js/byte": "^2.0.0",
     "@elysiajs/fn": "^0.6.1",
     "@elysiajs/node": "1.2.3",
     "@hapi/hapi": "^21.3.12",
-    "@jimmyolo/u-expresso": "npm:@jimmyolo/u-expresso@^1.4.3",
+    "@jimmyolo/u-expresso": "npm:@jimmyolo/u-expresso@^1.4.7",
     "@nbit/bun": "^0.13.4",
     "@nestjs/common": "^11.0.6",
     "@nestjs/core": "^11.0.6",
@@ -42,7 +43,7 @@
     "rxjs": "^7.8.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.3",
-    "ultimate-express": "^1.4.6",
+    "ultimate-express": "^1.4.8",
     "uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.51.0",
     "vixeny": "^0.1.53",
     "wobe": "^1.1.9"
