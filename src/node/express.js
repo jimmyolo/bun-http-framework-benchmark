@@ -1,11 +1,13 @@
 const express = require('express')
 
-express()
-	.use(express.json())
+const app = express()
+app.set('etag', false)
+
+app
 	.get('/', (req, res) => {
 		res.setHeader('content-type', 'text/plain').send('Hi')
 	})
-	.post('/json', ({ body }, res) => {
+	.post('/json', express.json(), ({ body }, res) => {
 		res.json(body)
 	})
 	.get('/id/:id', ({ params: { id }, query: { name } }, res) => {
