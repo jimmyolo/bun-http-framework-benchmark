@@ -1,7 +1,9 @@
 const express = require('express')
-express.set('etag', false)
 
-express()
+const app = express()
+app.set('etag', false)
+
+app
 	.get('/', (req, res) => {
 		res.setHeader('content-type', 'text/plain').send('Hi')
 	})
