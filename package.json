@@ -18,21 +18,21 @@
   "dependencies": {
     "@bit-js/byte": "^2.0.0",
     "@elysiajs/fn": "^0.6.1",
-    "@elysiajs/node": "1.2.3",
-    "@hapi/hapi": "^21.3.12",
-    "@jimmyolo/u-expresso": "npm:@jimmyolo/u-expresso@^1.4.7",
+    "@elysiajs/node": "1.2.6",
+    "@hapi/hapi": "^21.4.0",
+    "@jimmyolo/u-expresso": "npm:@jimmyolo/u-expresso@^1.5.6",
     "@nbit/bun": "^0.13.4",
-    "@nestjs/common": "^11.0.6",
-    "@nestjs/core": "^11.0.6",
-    "@nestjs/platform-express": "^11.0.6",
+    "@nestjs/common": "^11.1.0",
+    "@nestjs/core": "^11.1.0",
+    "@nestjs/platform-express": "^11.1.0",
     "@oakserver/oak": "^14.1.0",
     "bunrest": "^1.3.8",
-    "elysia": "1.2.10",
+    "elysia": "1.3.1",
     "express": "^5.1.0",
     "express-4": "npm:express@^4.21.2",
     "fastify": "^5.3.2",
     "h3": "^1.15.3",
-    "hono": "^4.7.8",
+    "hono": "^4.7.9",
     "hyper-express": "^6.17.3",
     "kill-port": "^2.0.1",
     "koa": "^2.16.1",
@@ -40,16 +40,16 @@
     "koa-router": "^13.0.1",
     "nhttp-land": "^1.3.26",
     "reflect-metadata": "^0.2.2",
-    "rxjs": "^7.8.1",
+    "rxjs": "^7.8.2",
     "ts-node": "^10.9.2",
-    "typescript": "^5.7.3",
-    "ultimate-express": "^1.4.8",
-    "uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.51.0",
+    "typescript": "^5.8.3",
+    "ultimate-express": "^1.4.9",
+    "uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.52.0",
     "vixeny": "^0.1.53",
-    "wobe": "^1.1.9"
+    "wobe": "^1.1.10"
   },
   "module": "index.ts",
   "peerDependencies": {
-    "typescript": "^5.7.3"
+    "typescript": "^5.8.3"
   }
 }
