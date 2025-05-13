@@ -10,12 +10,12 @@ import killPort from 'kill-port'
 import { $, pathToFileURL } from 'bun'
 
 const whitelists = <string[]>[
-	'node/elysia',
+	// 'node/elysia',
 	'node/express-4',
 	'node/express',
 	'node/fastify',
-	// 'node/h3',
-	// 'node/hono',
+	'node/h3',
+	'node/hono',
 	'node/hyper-express',
 	'node/koa',
 	'node/u-expresso',
