@@ -2,6 +2,7 @@ const uExpresso = require('@jimmyolo/u-expresso')
 
 const app = uExpresso()
 app.set("etag", false)
+app.set('declarative responses', false)
 
 app.get('/', (req, res) => {
   res.setHeader('content-type', 'text/plain').send('Hi')
