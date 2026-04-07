@@ -19,6 +19,7 @@ const whitelists = <string[]>[
 	// 'node/hyper-express',
 	// 'node/koa',
 	'node/u-expresso',
+	'node/u-expresso-declarative',
 	'node/ultimate-express',
 	'node/uws',
 ]
