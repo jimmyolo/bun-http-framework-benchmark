@@ -20,7 +20,7 @@
     "@elysiajs/fn": "^0.6.1",
     "@elysiajs/node": "1.4.5",
     "@hapi/hapi": "^21.3.12",
-    "@jimmyolo/u-expresso": "github:jimmyolo/uexpresso#v2.7.5",
+    "@jimmyolo/u-expresso": "github:jimmyolo/uexpresso#v2.8.0",
     "@nbit/bun": "^0.13.4",
     "@nestjs/common": "^11.0.6",
     "@nestjs/core": "^11.0.6",
