@@ -2,7 +2,7 @@ const uExpress = require('ultimate-express')
 
 const app = uExpress()
 app.set("etag", false)
-app.set('declarative responses', false)
+app.set('declarative responses', true)
 
 app.get('/', (req, res) => {
 	res.setHeader('content-type', 'text/plain').send('Hi')
